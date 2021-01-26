@@ -49,7 +49,7 @@ public class ServerBase {
                 OutputStream versoIlClient = client.getOutputStream();
                 BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(versoIlClient));
                 
-                bw.write("Ciao bello soono il server");
+                bw.write("Ciao bello sono il server");
                 
                 bw.close();
                 client.close();
